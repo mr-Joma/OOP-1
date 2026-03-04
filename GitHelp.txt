@@ -1,0 +1,14 @@
+Команды для регистрации данных
+git config --global user.name "mr-Joma"
+git config --global user.email "jomaturgunbekov@gmail.com"
+
+Команды только для одного проектв
+git init
+git remote add origin https://github.com/mr-Joma/OOP-1.git
+
+Основные команды для работы с Git
+
+git status / Состояние проекта
+git add .  / Скопировать все в буфер обмена
+git commit -m "lisson1"
+git branch
