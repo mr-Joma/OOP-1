@@ -10,5 +10,5 @@ git remote add origin https://github.com/mr-Joma/OOP-1.git
 
 git status / Состояние проекта
 git add .  / Скопировать все в буфер обмена
-git commit -m "lisson1"
+git commit -m "lesson1"
 git branch
