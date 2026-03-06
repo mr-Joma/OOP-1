@@ -17,5 +17,3 @@ asuna = Hero('Asuna', 1001, 101)
 
 print(kirito.action())
 print(asuna.action())
-
-test = 11
