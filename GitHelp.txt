@@ -2,13 +2,18 @@
 git config --global user.name "mr-Joma"
 git config --global user.email "jomaturgunbekov@gmail.com"
 
-Команды только для одного проектв
+------------------------------------------------------------------------------
+
+Команды на один раз в проекте
 git init
 git remote add origin https://github.com/mr-Joma/OOP-1.git
 
-Основные команды для работы с Git
+------------------------------------------------------------------------------
+
+Коматды которые часто пишутся в проекте
 
 git status / Состояние проекта
 git add .  / Скопировать все в буфер обмена
 git commit -m "lesson1"
 git branch
+git push origin master
