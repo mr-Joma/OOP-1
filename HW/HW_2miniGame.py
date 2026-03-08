@@ -1,7 +1,6 @@
 player = input('Выберите героя: Warrior/Mage/Assasin: ')
 enemy = input('Выберите противника: Warrior/Mage/Assasin: ')
 
-
 print(f'Вы выбрали: {player}')
 print(f'Противник выбрал: {enemy}')
 
