@@ -34,3 +34,8 @@ feat/filter_news
 "update: register added email logic"
 
 git merge branch_name
+git pull origin master
+
+cd ../ выйти из папки
+cd dir_name перейти в указонную папку
+ls просмотреть что есть в этой папке
