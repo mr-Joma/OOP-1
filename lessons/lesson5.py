@@ -128,19 +128,41 @@
 # Декоратор с параметрами имеет двойную вложенность
 # А без параметров одну
 
-def class_decorator(cls):
-    class NewClass(cls):
-        def method(self):
-            print("New method!!")
-    return NewClass
+# def class_decorator(cls):
+#     class NewClass(cls):
+#         def method(self):
+#             print("New method!!")
+#     return NewClass
+#
+# @class_decorator
+# class OldClass:
+#     def method(self):
+#         print("Old method!!")
+#
+# obj_1 = OldClass()
+# obj_1.method()
+#
+# print(type(obj_1))
 
-@class_decorator
-class OldClass:
-    def method(self):
-        print("Old method!!")
 
-obj_1 = OldClass()
-obj_1.method()
+# Пример
+def is_admin(func):
+    def wrapper(user):
+        if user.role == "admin":
+            func()
+        return print("Вы не админ!!")
+    return wrapper
+
+@is_admin
+def send_msg(user):
+    print(f"{user.name} msg!!")
 
 
-
+def retry(func):
+    def wrapper():
+        data = func()
+        if data.status == "OK":
+            return print("OK!!")
+        else:
+            func()
+    return wrapper
