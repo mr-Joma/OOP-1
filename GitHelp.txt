@@ -39,3 +39,14 @@ git pull origin master
 cd ../ выйти из папки
 cd dir_name перейти в указонную папку
 ls просмотреть что есть в этой папке
+
+# Саздание виртуального окружения
+py -m venv name_venv
+python -m venv name_venv
+python3 -m venv name_venv
+
+# Активирование виртуального окружения
+source venv/bin/activate (на MacOS и Linux)
+
+.venv\Scripts\activate (на Windows/Windows PowerShell) #Терминал
+source .venv\Scripts\activate (на Windows/Command Prompt) #Терминал

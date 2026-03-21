@@ -17,3 +17,13 @@ asuna = Hero('Asuna', 1001, 101)
 
 print(kirito.action())
 print(asuna.action())
+
+
+__all__ = (
+    "Hero",
+    #"MageHro"
+)
+
+# if __name__ == "__main__":
+#     kirito.action()
+#     asuna.action()
